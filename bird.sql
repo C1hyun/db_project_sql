@@ -1,0 +1,7 @@
+/* 조류 */
+CREATE TABLE BIRD (
+	BIRD_ID VARCHAR(10) PRIMARY KEY,-- 조류종ID
+    BIRD_NAME VARCHAR(50) NOT NULL, -- 조류이름
+    BIRD_SIZE VARCHAR(10)			-- 크기 
+)
+
